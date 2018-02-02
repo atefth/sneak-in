@@ -1,0 +1,25 @@
+db_pool: '5'
+db_port: '3306'
+db_username: 'root'
+db_password: 'root'
+
+test:
+  db_adapter: 'mysql2'
+  db_name: 'sneak_in_test'
+  db_host: 'localhost'
+  db_socket: '/tmp/mysql.sock'
+
+development:
+  db_adapter: 'mysql2'
+  db_name: 'sneak_in_development'
+  db_host: 'localhost'
+  db_socket: '/tmp/mysql.sock'
+
+production:
+  db_adapter: 'postgres'
+  db_name: 'd24omhfqcqteeg'
+  db_url: 'postgres://idvofpxhigtvpn:c27fadaa69b212c8981b75c460ccda43c2bedf11674bfbead85c94d4e9b00be4@ec2-50-16-231-2.compute-1.amazonaws.com:5432/d24omhfqcqteeg'
+  db_host: 'ec2-50-16-231-2.compute-1.amazonaws.com'
+  db_port: '5432'
+  db_user: 'idvofpxhigtvpn'
+  db_password: 'c27fadaa69b212c8981b75c460ccda43c2bedf11674bfbead85c94d4e9b00be4'

@@ -6,7 +6,7 @@
 .gems/*
 /config/additional_environment.rb
 /config/configuration.yml
-/config/database.yml
+# /config/database.yml
 /config/email.yml
 /config/secrets.yml
 /config/initializers/session_store.rb
@@ -43,4 +43,4 @@
 
 
 # Ignore application configuration
-/config/application.yml
+# /config/application.yml
