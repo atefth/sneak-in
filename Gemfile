@@ -86,6 +86,10 @@ group :development do
   gem "mysql2"
 end
 
+group :production do
+    gem "pg"
+end
+
 group :test do
   gem "rails-dom-testing"
   gem "mocha"
