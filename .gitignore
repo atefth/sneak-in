@@ -3,7 +3,7 @@
 /.loadpath
 /.powrc
 /.rvmrc
-/.gems
+.gems/*
 /config/additional_environment.rb
 /config/configuration.yml
 /config/database.yml
