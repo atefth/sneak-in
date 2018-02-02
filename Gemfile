@@ -77,10 +77,13 @@ if File.exist?(database_file)
 else
   warn("Please configure your config/database.yml first")
 end
+gem 'puma', '~> 3.7'
+gem 'figaro'
 
 group :development do
   gem "rdoc", "~> 4.3"
   gem "yard"
+  gem "mysql2"
 end
 
 group :test do
@@ -88,7 +91,6 @@ group :test do
   gem "mocha"
   gem "simplecov", "~> 0.14.1", :require => false
   # For running system tests
-  gem 'puma', '~> 3.7'
   gem "capybara", '~> 2.13'
   gem "selenium-webdriver"
 end

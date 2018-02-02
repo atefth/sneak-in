@@ -3,6 +3,7 @@
 /.loadpath
 /.powrc
 /.rvmrc
+/.gems
 /config/additional_environment.rb
 /config/configuration.yml
 /config/database.yml
@@ -41,3 +42,6 @@
 /Gemfile.lock
 /Gemfile.local
 
+
+# Ignore application configuration
+/config/application.yml
