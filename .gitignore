@@ -4,10 +4,10 @@
 /.powrc
 /.rvmrc
 .gems/*
-/config/email.yml
-/config/secrets.yml
-/config/initializers/session_store.rb
-/config/initializers/secret_token.rb
+# /config/email.yml
+# /config/secrets.yml
+# /config/initializers/session_store.rb
+# /config/initializers/secret_token.rb
 /coverage
 /db/*.db
 /db/*.sqlite3
