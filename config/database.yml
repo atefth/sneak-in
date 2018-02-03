@@ -1,5 +1,4 @@
 default: &default
-  adapter: <%= ENV['db_adapter'] %>
   pool: <%= ENV['db_pool'] %>
   username: <%= ENV['db_username'] %>
   password: <%= ENV['db_password'] %>
@@ -7,6 +6,7 @@ default: &default
 
 development:
   <<: *default
+  adapter: <%= ENV['db_adapter'] %>
   host: <%= ENV['db_host'] %>
   database: <%= ENV['db_name'] %>
   socket: <%= ENV['db_socket'] %>
@@ -16,6 +16,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
+  adapter: <%= ENV['db_adapter'] %>
   host: <%= ENV['db_host'] %>
   database: <%= ENV['db_name'] %>
   socket: <%= ENV['db_socket'] %>
