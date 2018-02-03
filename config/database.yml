@@ -22,7 +22,6 @@ test:
 
 production:
   <<: *default
-  adapter: <%= ENV['db_adapter'] %>
   host: <%= ENV['db_host'] %>
   url: <%= ENV['db_url'] %>
   database: <%= ENV['db_name'] %>
