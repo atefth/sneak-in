@@ -83,11 +83,11 @@ gem 'figaro'
 group :development do
   gem "rdoc", "~> 4.3"
   gem "yard"
-  gem "mysql2"
+# gem "mysql2"
 end
 
 group :production do
-    gem "pg", "~> 0.18"
+# gem "pg", "~> 0.18"
 end
 
 group :test do
@@ -109,4 +109,4 @@ Dir.glob File.expand_path("../plugins/*/{Gemfile,PluginGemfile}", __FILE__) do |
   eval_gemfile file
 end
 
-ruby "2.5.0"
+ruby "2.3.0"
